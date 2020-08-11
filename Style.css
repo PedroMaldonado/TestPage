@@ -1,0 +1,196 @@
+:root {
+    --green-color: #7ACC2D;
+    --white-color: white;
+    --black-color: #313337;
+    --space: 10px;
+    --normal: 12px;
+    --box: 0 0 2px 1px #e6e5e9;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: var(--normal);
+    font-family: Helvetica, sans-serif;
+}
+
+nav {
+    background-color: var(--green-color);
+    padding: var(--space);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    padding-left: 20px;
+}
+
+nav li a {
+    color: var(--black-color);
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: var(--white-color);
+}
+
+/* main */
+
+.main_section {
+    padding: 10%;
+    text-align: center;
+}
+
+.products {
+    background-image: url(Images/curve.png);
+    height: 50px;
+    background-size: cover;
+    background-position: center top;
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.product {
+    padding: var(--space);
+    margin-top: -240px;
+}
+
+.product .content {
+    background-color: var(--white-color);
+    padding: 15px;
+    box-shadow: 0 0 1px #c1bcbc;
+}
+
+.img_content {
+    text-align: center;
+}
+
+.main_button {
+    background-color: var(--green-color);
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.main_button:hover {
+    background-color: #5e9e22;
+}
+
+.categories {
+    display: flex;
+    padding: 10%;
+    justify-content: center;
+}
+
+.category {
+    padding: var(--space);
+    border: 1px solid #c1bcbc;
+    border-radius: 5px;
+    box-shadow: -4px 2px 4px 2px #c1bcbc;
+    margin: 5px;
+}
+
+.ccontent {
+    text-align: center;
+}
+
+.last_section h1 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.mentions {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+
+.mention {
+    box-shadow: -4px 2px 4px 2px #c1bcbc;
+    margin: 5px;
+}
+
+.mention_image {
+    background-image: url(Images/box2.png);
+    background-repeat: no-repeat;
+    background-position: center;    
+    height: 80px;
+}
+
+.mention h3 {
+    padding-left: var(--space);
+}
+.mention p {
+    padding-left: var(--space);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background: var(--black-color);
+}
+
+.option {
+    color: var(--white-color);
+    padding: var(--space);
+}
+
+.product-image {
+    display: flex;
+    justify-content: center;
+}
+
+.product-details p{
+    padding: 0;
+}
+
+.main_section2 {
+    margin: 50px 50px 30px 50px;
+}
+
+.modulo_pago {
+    background-color: var(--white-color);
+    box-shadow: var(--box);
+    padding: var(--space);
+}
+
+.modulo_pago_imagen {
+    /* max-width: 150px; */
+    text-align: center;
+    /* margin: auto; */
+}
+
+label {
+    font-size: var(--normal);
+    padding-bottom: var(--space);
+}
+
+.data {
+    margin-top: var(--space);
+    width: 100%;
+    height: 35px;
+    border: 1px solid var(--black-color);
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+.modulo_pago .main_button {
+    margin-top: 10px;
+}
+
+.contact a {
+    color: var(--green-color);
+}

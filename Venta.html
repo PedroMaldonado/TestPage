@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
+        <link rel="stylesheet" href="Grid.css">
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="Style.css">
+        <link rel="stylesheet" href="Mobile.css">
+        <link rel="stylesheet" href="Animations.css">
+        <title>Venta</title>
+    </head>
+    <body>
+        <nav class="fadeInDown">
+            <div class="brand_image">
+                <img src="Images/logo.png" alt="">
+            </div>
+            <div class="nav_options">
+                <ul>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="Producto.html">Producto y descrpción</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="modulo_pago">
+                        <div class="modulo_pago_imagen">
+                            <img src="Images/box2.png" alt="">
+                        </div>
+                        <h3>Producto 1</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>                    
+                </div>
+                <div class="col-8">
+                    <div class="modulo_pago">
+                        <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=ETXU7VFC2HJQ8">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" placeholder="" name="nombre" id="nombre" class="data">
+                            <label for="email">E-mail</label>
+                            <input type="text" placeholder="" name="email" id="email" class="data">
+                            <label for="phone">Telefono</label>
+                            <input type="text" placeholder="" name="phone" id="phone" class="data">
+                            
+                            <input type="submit" class="main_button" name="submit" value="Confirmar Pago">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="option">Terminos y condiciones</div>
+            <div class="option">contacto@brand.com</div> 
+        </footer>
+        <script src="Script.js"></script>
+    
+</body></html>
